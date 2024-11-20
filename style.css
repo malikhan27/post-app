@@ -42,7 +42,7 @@ body {
 }
 
 .search:hover {
-  color: white;
+  color: white !important;
   background-color: rgb(31, 160, 235) !important;
 }
 
@@ -52,6 +52,7 @@ body {
 
 .btn-post {
   background-color: rgb(31, 160, 235) !important;
+  color: #ffffff !important;
 }
 
 .btn-post:hover {

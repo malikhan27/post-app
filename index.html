@@ -50,7 +50,7 @@
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary search" type="submit">Search</button>
+            <button class="btn btn-outline-dark search" type="submit">Search</button>
           </form>
         </div>
       </div>
@@ -60,21 +60,32 @@
 
 
   </div>
-
   <div class="d-flex justify-content-center mt-3">
-    <div class="post-form ms-3 w-50">
-      <div class="card w-100" >
+    <div class="post-form ms-3 w-75 d-flex flex-column align-items-center justify-content-center">
+      <div class="card w-100">
         <div class="card-body my-card">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title"></h5>
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <label for="exampleFormControlInput1" class="form-label fw-bold">POST TITLE</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" >
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label fw-bold">USERNAME</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="jhonexample">
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <label for="exampleFormControlTextarea1" class="form-label fw-bold">SHARE YOUR THOUGHTS</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <a href="#" class="btn btn-primary btn-post">Go somewhere</a>
+          <div class="d-flex image-div justify-content-center gap-3 w-100">
+            <img class="bg-image" onclick="selectedimage('assets/bg-1.jpg')" src="assets/bg-1.jpg" alt="">
+            <img class="bg-image" onclick="selectedimage('assets/bg-2.jpg')" src="assets/bg-2.jpg" alt="">
+            <img class="bg-image" onclick="selectedimage('assets/bg-3.avif')" src="assets/bg-3.avif" alt="">
+            <img class="bg-image" onclick="selectedimage('assets/bg-4.jpg')" src="assets/bg-4.jpg" alt="">
+          </div>
+          <div class="d-flex justify-content-center mt-4">
+            <a href="#" class="btn btn-outline-dark btn-post w-75">POST</a>
+          </div>
         </div>
       </div>
     </div>
@@ -94,15 +105,7 @@
 
 
 
-  <div class="d-flex image-div justify-content-center gap-3 w-100">
-    <img class="bg-image" onclick="selectedimage('assets/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg')"
-      src="assets/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg" alt="">
-    <img class="bg-image" onclick="selectedimage('assets/bokeh-bubbles-sun-flash-blue-background_1182-1745.avif')"
-      src="assets/bokeh-bubbles-sun-flash-blue-background_1182-1745.avif" alt="">
-    <img class="bg-image" onclick="selectedimage('assets/images.jpg')" src="assets/images.jpg" alt="">
-    <img class="bg-image" onclick="selectedimage('assets/light-background-ikyjig15tfb42tv5.jpg')"
-      src="assets/light-background-ikyjig15tfb42tv5.jpg" alt="">
-  </div>
+ 
 
 
 
