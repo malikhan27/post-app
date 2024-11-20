@@ -1,8 +1,15 @@
 @font-face {
   font-family: ali-font;
+  src: url(assets/fonts/BarlowCondensed-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: head-font;
   src: url(assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
 }
+
+
 body {
+  font-family: head-font;
   background: rgb(223, 251, 246);
   background: linear-gradient(
     135deg,
@@ -11,7 +18,7 @@ body {
   );
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -23,7 +30,6 @@ body {
 }
 
 .logo {
-  font-family: ali-font;
   img {
     width: 90px;
     height: 80px;
@@ -72,8 +78,20 @@ body {
 }
 
 .my-card{
-
   background-color:  rgba(243, 255, 253, 0.562)  !important;
+}
+
+.select{
+  border: 2px solid black;
+}
+
+.special-div{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  font-size: 18px;
+  font-family: ali-font !important;
+  letter-spacing: 1px;
+  
 }
 
 @media screen and (max-width:480px){
