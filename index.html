@@ -71,19 +71,31 @@
           </div>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label fw-bold">POST TITLE</label>
-            <input type="email" class="form-control" id="post-title" >
+            <input type="email" class="form-control" id="post-title">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label fw-bold">SHARE YOUR THOUGHTS</label>
             <textarea class="form-control" id="thoughts" rows="3"></textarea>
           </div>
-          <div class="d-flex image-div justify-content-center gap-4 w-100">
-           <img  class="bg-image"  onclick="imageselector('bg1.jpg')" src="bg1.jpg" alt="">
-           <img  class="bg-image" onclick="imageselector('bg2.jpg')" src="bg2.jpg" alt="">
-           <img  class="bg-image" onclick="imageselector('bg3.jpg')" src="bg3.jpg" alt="">
-           <img  class="bg-image" onclick="imageselector('bg4.jpg')" src="bg4.jpg" alt="">
-
+          <div class="d-flex image-div flex-column align-items-center justify-content-center gap-1 w-100">
+            <h6>SELECT BACKGROUND FOR TITLE</h6>
+            <div class="d-flex image-div justify-content-center gap-4 w-100">
+              <img class="title-img" onclick="titleimage('title1.jpg')" src="title1.jpg" alt="">
+              <img class="title-img" onclick="titleimage('title2.jpg')" src="title2.jpg" alt="">
+              <img class="title-img" onclick="titleimage('title3.jpg')" src="title3.jpg" alt="">
+              <img class="title-img" onclick="titleimage('title4.jpg')" src="title4.jpg" alt="">
+            </div>
           </div>
+          <div class="d-flex image-div mt-3 flex-column align-items-center justify-content-center gap-1 w-100">
+            <h6>SELECT BACKGROUND FOR POST</h6>
+            <div class="d-flex image-div justify-content-center gap-4 w-100">
+              <img class="bg-image" onclick="imageselector('bg1.jpg')" src="bg1.jpg" alt="">
+              <img class="bg-image" onclick="imageselector('bg2.jpg')" src="bg2.jpg" alt="">
+              <img class="bg-image" onclick="imageselector('bg3.jpg')" src="bg3.jpg" alt="">
+              <img class="bg-image" onclick="imageselector('bg4.jpg')" src="bg4.jpg" alt="">
+            </div>
+          </div>
+
           <div class=" d-flex justify-content-center mt-4">
             <a onclick="submit()" href="#" class="btn btn-outline-dark btn-post w-75">POST</a>
           </div>
@@ -94,7 +106,7 @@
   </div>
 
   <div class="container mt-4 ">
-    <div  class="d-flex flex-column flex-wrap align-items-center" id="main-div">
+    <div class="d-flex flex-column flex-wrap align-items-center" id="main-div">
 
     </div>
   </div>
