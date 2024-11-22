@@ -1,4 +1,4 @@
-var datetoday = new Date().toUTCString();
+
 var selectedimage;
 function imageselector(src) {
   backGroundimage = document.getElementsByClassName("bg-image");
@@ -12,6 +12,7 @@ function imageselector(src) {
 }
 
 function submit() {
+  var datetoday = new Date().toUTCString();
   var userName = document.getElementById("username");
   var postTitle = document.getElementById("post-title");
   var thought = document.getElementById("thoughts");
