@@ -7,8 +7,7 @@
   src: url(assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
 }
 
-
-body,html {
+body {
   font-family: head-font;
   background: rgb(223, 251, 246);
   background: linear-gradient(
@@ -18,8 +17,9 @@ body,html {
   );
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: auto;
   width: 100%;
+ 
 }
 
 .image-div{
